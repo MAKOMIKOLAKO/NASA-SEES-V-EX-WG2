@@ -1,4 +1,5 @@
 # Project Overview
+This research project, conducted by 2024 NASA SEES Interns (Kevin Diaz, Kandyce Diep, Suhani Dondapati, Maako Fangajei, Anna Felten, Kei Fry, Conor Furey, Aaren George), utilizes citizen science to create a machine learning model trained to predict land surface temperatures (LSTs). This research question was addressed using GLOBE Observer down photos in conjunction with Landsat-8 data used to train two machine learning models: Random Forest and XGBoost. For both Random Forest and XGBoost, we trained the model on three separate datasets: one with coordinate data, one with coordinate & GLOBE data, and one comprehensive model with coordinate, GLOBE, and CEO data. We evaluated models with three statistical metrics: R^2, RMSE, and MAE. The hypothesis was that incorporating vegetation data and Collect Earth Online data into the machine learning models with coordinate data would provide greater accuracy for predicting land surface temperatures.
 
 # Description of Repository Files
 
