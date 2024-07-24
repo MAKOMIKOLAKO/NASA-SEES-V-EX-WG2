@@ -25,6 +25,9 @@ Additionally, the GitHub contains raw data files used to create processed data:
     * Contains all 958 raw "down photos" from the SEES 2024 intern team, later uploaded to Zooniverse for labeling
 
 ## Steps to Reproduce Results
+1. Download all files in the Training Data folder (model1_dataset.csv, model2_dataset.csv, and model3_dataset.csv). Upload to Google Drive.
+2. Run the Random Forest notebook to obtain Random Forest results. You may need to change the path to each dataset in your code. 
+3. Run the XGBoost notebook to obtain XGBoost results. You may need to change the path to each dataset in your code. 
 
 ## Citations and Acknowledgments
 
