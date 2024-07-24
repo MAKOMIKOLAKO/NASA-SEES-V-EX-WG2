@@ -5,6 +5,25 @@ This research project, conducted by 2024 NASA SEES Interns (Kevin Diaz, Kandyce 
 
 ## Description of Repository Files
 
+There are two Google Colab notebooks included in the Training Notebooks directory.
+
+V_EX_Group_2_ML_Notebook_Random_Forest.ipynb
+*-contains all necessary code for processing data and training three separate Random Forest models.
+V_EX_Group_2_ML_Notebook_XGBoost.ipynb
+contains all necessary code for processing data and training three separate XGBoost models.
+
+The data used for training the models is included in the Training Data directory:
+*model1_dataset.csv
+**contains only latitude and longitude data, along with an image ID that corresponds to an image ID from the GLOBE Observer Down Photos directory
+*model2_dataset.csv
+**contains coordinate data (latitude and longitude), along with citizen-labeled data from Zooniverse for GLOBE Observer photos
+*model3_dataset.csv
+**contains coordinate data, citizen-labeled data from Zooniverse, and labeled satellite data from Collect Earth Online associated with each image's location
+
+Additionally, the GitHub contains raw data files used to create processed data:
+*GLOBE Observer Down Photos
+**Contains all 958 raw "down photos" from the SEES 2024 intern team, later uploaded to Zooniverse for labeling
+
 ## Steps to Reproduce Results
 
 ## Citations and Acknowledgments
