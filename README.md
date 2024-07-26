@@ -23,6 +23,10 @@ The data used for training the models is included in the Training Data directory
 Additionally, the GitHub contains raw data files used to create processed data:
 * GLOBE Observer Down Photos
     * Contains all 958 raw "down photos" from the SEES 2024 intern team, later uploaded to Zooniverse for labeling
+* Raw Zooniverse data
+	* Contains the raw labeled image data from Zooniverse
+* Raw Collect Earth Online Data
+    * Contains the raw labeled satellite data from Collect Earth Online for 47 separate areas of interest, separated into 5 files (CEO_1.csv, CEO_2.csv, CEO_3.csv, CEO_4.csv, and CEO_5.csv) due to the large size of the dataset
 
 ## Steps to Reproduce Results
 1. Download all files in the Training Data folder (model1_dataset.csv, model2_dataset.csv, and model3_dataset.csv). Upload to Google Drive.
